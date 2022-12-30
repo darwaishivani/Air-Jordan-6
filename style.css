@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: cursive;
+	font-family: "Product Sans";
 	color: white;
 }
 html,
@@ -51,6 +51,7 @@ body {
 }
 #nav > img {
 	height: 30px;
+	cursor: pointer;
 }
 #nav-bar1 {
 	display: flex;
@@ -58,13 +59,13 @@ body {
 	align-items: center;
 }
 #nav h4 {
+	cursor: pointer;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
 	margin-right: 30px;
 }
 #nav h5 {
-	display: inline;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -74,7 +75,19 @@ body {
 	background-color: #ef668a;
 	border-radius: 50%;
 	padding: 10px;
+	cursor: pointer;
 }
+
+#nav-bar2 {
+	display: flex;
+	cursor: pointer;
+}
+
+#nav-bar2 h5 {
+	margin-left: 12px;
+	margin-top: 1px;
+}
+
 #left {
 	height: 100%;
 	width: 55%;
@@ -111,6 +124,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 600;
 	border-radius: 50px;
+	cursor: pointer;
 }
 #right {
 	height: 100%;
@@ -121,11 +135,11 @@ body {
 #main > img {
 	position: absolute;
 	height: 400px;
-	top: 16%;
+	top: 19%;
 	left: 43%;
 	transform: rotateY(180deg) rotateZ(30deg);
 	filter: brightness(1.4);
-	z-index: 9999;
+	z-index: 9;
 }
 #main > h1 {
 	font-size: 400px;
@@ -165,16 +179,19 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 #footer2 i {
 	/* height: 490px; */
 	margin: 10px;
 	font-size: 25px;
+	cursor: pointer;
 }
 #footer3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 #footer3 i {
 	font-size: 80px;
