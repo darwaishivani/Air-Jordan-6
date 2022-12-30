@@ -93,7 +93,7 @@ body {
 	width: 55%;
 	padding: 110px 130px;
 	margin-top: 20px;
-	/* background-color: violet; */
+	z-index: 11;
 }
 #left h2 {
 	margin-bottom: 10px;
